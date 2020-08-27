@@ -21,3 +21,12 @@ h1{
     height: auto;
     font-size:20px;
 }
+
+.form, .grettings{
+    display: none;
+}
+
+.showing{
+    display: block; 
+}
+
