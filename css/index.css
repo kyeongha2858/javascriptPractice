@@ -3,4 +3,13 @@ body{
 }
 h1{
     color: white;
+    transition:  color 0.8s ease-in-out;
+}
+
+.clicked {
+    color:blue;
+}
+
+.btn{
+    cursor: pointer;
 }

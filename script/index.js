@@ -1,9 +1,13 @@
 const title = document.querySelector("#title");
 
-title.innerHTML = "HI"
+const clicked_class = "clicked";
 
-function handleResize(){
-    console.log("에러");
+function handleClick(){
+   title.classList.toggle(clicked_class);
 }
 
-window.addEventListener("resize",handleResize);
+function init(){
+    title.addEventListener("click",handleClick);
+}
+
+init();
